@@ -1,0 +1,19 @@
+#多个profile在一个yml中配置
+
+#server:
+#  port: 8000
+#spring:
+#  profiles: peer1
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://peer2:8001/eureka
+#---
+#server:
+#  port: 8001
+#spring:
+#  profiles: peer2
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://peer1:8000/eureka
